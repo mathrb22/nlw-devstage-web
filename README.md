@@ -1,7 +1,7 @@
 <div align="center">
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px">
-<img src=".github/nlw-connect.svg" alt="devstage" style="height: 22px">
-<img src="src/assets/logo.svg" alt="devstage" style="height: 50px">
+<div>
+<img src=".github/nlw-connect.svg" alt="devstage" style="height: 28px"> <br/><br/>
+<img src="src/assets/logo.svg" alt="devstage" style="height: 60px">
 </div>
 <br/>
 <br/>
