@@ -94,12 +94,11 @@ A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em Re
 
 ## ✨ Features
 
-✅ Realizar inscrição<br/>
-✅ Opção de copiar link para indicar outras pessoas<br/>
-✅ Visualizar acessos ao link<br/>
-✅ Visualizar inscrições feitas através do link de indicação<br/>
-✅ Visualizar posição do ranking<br/>
-✅ Visualizar ranking<br/>
+✅ **Realizar inscrição:** permite a inscrição rápida no evento.<br/>
+✅ **Cópia do link de indicação:** gera um link compartilhável para convidar participantes.<br/>
+✅ **Visualização de acessos:** exibe a quantidade de vezes que o link foi acessado.<br/>
+✅ **Acompanhamento de inscrições:** exibe quantas pessoas se inscreveram pelo link.<br/>
+✅ **Ranking de indicação:** exibe a posição do usuário no ranking geral.<br/>
 
 
 ## 🎨 Protótipo
