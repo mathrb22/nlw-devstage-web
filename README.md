@@ -61,35 +61,43 @@ A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em Re
   <tr>
     <td align="center" width="100">
       <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-        <img width="60" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
+      <img width="60" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
       </a>
-      <span>React</span>
     </td>
     <td align="center" width="100">
       <a href="https://nextjs.org/">
-        <img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_js.png" alt="Next.js" title="Next.js"/>
+      <img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_js.png" alt="Next.js" title="Next.js"/>
       </a>
-      <span>Next.js</span>
     </td>
     <td align="center" width="100">
       <a href="https://www.typescriptlang.org/">
-        <img width="60" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/>
+      <img width="60" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/>
       </a>
-      <span>TypeScript</span>
     </td>
     <td align="center" width="120">
       <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
-        <img width="70" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+      <img width="70" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="Tailwind CSS" title="Tailwind CSS"/>
       </a>
-      <span>Tailwind CSS</span>
     </td>
     <td align="center" width="100">
       <a href="https://zod.dev/" target="_blank" rel="noopener noreferrer">
-        <img width="70" src="https://zod.dev/logo.svg" alt="Zod" title="Zod"/>
+      <img width="70" src="https://zod.dev/logo.svg" alt="Zod" title="Zod"/>
       </a>
-      <span>Zod</span>
     </td>
-  </tr>
+    <td align="center" width="140">
+      <a href="https://www.react-hook-form.com/" target="_blank" rel="noopener noreferrer">
+      <img width="60" src=".github/react-hook-form.svg" alt="React Hook Form" title="React Hook Form"/>
+      </a>
+    </td>
+    </tr>
+    <tr>
+    <td align="center"><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><span>React</span></a></td>
+    <td align="center"><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><span>Next.js</span></a></td>
+    <td align="center"><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer"><span>TypeScript</span></a></td>
+    <td align="center"><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer"><span>Tailwind CSS</span></a></td>
+    <td align="center"><a href="https://zod.dev/" target="_blank" rel="noopener noreferrer"><span>Zod</span></a></td>
+    <td align="center"><a href="https://www.react-hook-form.com/" target="_blank" rel="noopener noreferrer"><span>React Hook Form</span></a></td>
+    </tr>
 </table>
 
 ## ✨ Features
