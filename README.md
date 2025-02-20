@@ -1,34 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px">
+<img src=".github/nlw-connect.svg" alt="devstage" style="height: 22px">
+<img src="src/assets/logo.svg" alt="devstage" style="height: 50px">
+</div>
+<br/>
+<br/>
+</div>
+<div align="center">
+   <a href="https://github.com/mathrb22">
+      <img alt="Made by mathrb22" src="https://img.shields.io/badge/made%20by-mathrb22-yellow">
+   </a>
+   <a href="https://github.com/mathrb22/nlw-devstage-web/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/nlw-devstage-web">
+   </a>
+   <a href="https://github.com/mathrb22/nlw-devstage-web/issues">
+      <img alt="GitHub Issues" src="https://img.shields.io/github/issues/mathrb22/nlw-devstage-web">
+   </a>
+   <a href="https://github.com/mathrb22/nlw-devstage-web/pulls">
+      <img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+   </a>
+   <a href="https://github.com/mathrb22/nlw-devstage-web/blob/main/LICENSE">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/nlw-devstage-web">
+   </a>
+</div>
 
-## Getting Started
+</br>
+<div align="center">
 
-First, run the development server:
+[**Sobre**](#-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Objetivo**](#-objetivo) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Tecnologias e ferramentas**](#-tecnologias-e-ferramentas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Features**](#-features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Protótipo**](#-protótipo) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Como contribuir**](#-como-contribuir) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Licença**](#-licença)
+
+</div>
+
+## 📃 Sobre
+
+<img alt="Devstage - Home page" src=".github/home-page.png" width="100%"/>
+
+**Devstage** é o projeto desenvolvido durante a trilha de React da **Next Level Week Connect**, um evento online produzido pela [**Rocketseat**](https://github.com/Rocketseat).
+
+Trata-se de uma aplicação web que permite aos usuários se inscreverem em um evento, e compartilhar um link de indicação para que outras pessoas se inscrevam no evento. A aplicação conta com um sistema de ranking, onde os usuários podem visualizar a posição deles no ranking, e também visualizar o ranking geral.
+
+<img alt="Devstage - Invite page" src=".github/invite-page.png" width="100%"/>
+
+## 🎯 Objetivo
+
+O objetivo principal do **Devstage** é proporcionar uma experiência de inscrição em eventos mais interativa e engajadora, permitindo que os usuários possam compartilhar um link de indicação para que outras pessoas se inscrevam no evento, e assim, possam subir no ranking.
+
+A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em React, Next.js (v15), TypeScript, Tailwind CSS (v4) e Zod, além de proporcionar uma experiência de aprendizado e networking com a comunidade de desenvolvedores.
+
+
+## 🚀 Tecnologias e ferramentas
+
+<table>
+  <tr>
+    <td align="center" width="100">
+      <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+        <img width="60" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React"/>
+      </a>
+      <span>React</span>
+    </td>
+    <td align="center" width="100">
+      <a href="https://nextjs.org/">
+        <img width="70" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_js.png" alt="Next.js" title="Next.js"/>
+      </a>
+      <span>Next.js</span>
+    </td>
+    <td align="center" width="100">
+      <a href="https://www.typescriptlang.org/">
+        <img width="60" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/>
+      </a>
+      <span>TypeScript</span>
+    </td>
+    <td align="center" width="120">
+      <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
+        <img width="70" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+      </a>
+      <span>Tailwind CSS</span>
+    </td>
+    <td align="center" width="100">
+      <a href="https://zod.dev/" target="_blank" rel="noopener noreferrer">
+        <img width="70" src="https://zod.dev/logo.svg" alt="Zod" title="Zod"/>
+      </a>
+      <span>Zod</span>
+    </td>
+  </tr>
+</table>
+
+## ✨ Features
+
+✅ Realizar inscrição<br/>
+✅ Opção de copiar link para indicar outras pessoas<br/>
+✅ Visualizar acessos ao link<br/>
+✅ Visualizar inscrições feitas através do link de indicação<br/>
+✅ Visualizar posição do ranking<br/>
+✅ Visualizar ranking<br/>
+
+
+## 🎨 Protótipo
+
+O protótipo do projeto foi desenvolvido utilizando a ferramenta [**Figma**](https://www.figma.com/). Você pode acessá-lo [aqui](https://www.figma.com/community/file/1471119935944492720/nlw-connect-devstage).
+
+
+## 🔧 Instalação e execução
+
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).
+Com o Git instalado, em seu terminal execute o seguinte comando:
+
+```bash
+git clone https://github.com/mathrb22/nlw-devstage-web.git
+```
+
+Para instalar as dependências e executar o projeto terá que ter instalado em sua máquina o [**node.js**](https://nodejs.org/en/), que vem acompanhado do npm. Instale as dependências usando o comando abaixo:
+
+```bash
+npm install
+```
+
+Executar o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação estará disponível em http://localhost:3000. Você poderá acessá-la a partir do seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Como contribuir
 
-## Learn More
+- Faça um **_fork_** desse repositório;
+- Crie um **branch** para a sua feature: `git checkout -b minha-feature`;
+- Faça um **commit** com suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça um **push** para o seu branch: `git push origin minha-feature`;
+- Faça um **pull request** com sua feature;
 
-To learn more about Next.js, take a look at the following resources:
+Pull requests são sempre bem-vindos. Em caso de dúvidas ou sugestões, crie uma _**issue**_ ou entre em contato comigo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<a href="https://github.com/mathrb22/nlw-devstage-web/blob/main/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/mathrb22/nlw-devstage-web">
+</a>
 
-## Deploy on Vercel
+Esse projeto está sob a licença **MIT**. Veja o arquivo _**LICENSE**_ para mais detalhes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desenvolvido com 💚 por <a href="https://github.com/mathrb22/">mathrb22</a>
+
+<div style="display: flex;">
+  <a href="https://www.linkedin.com/in/matheus-ribeiro-dev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
+  <a href="mailto:math.ribeiro.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="margin-right: 2vw"/></a>
+</div>
