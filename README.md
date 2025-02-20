@@ -94,7 +94,7 @@ A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em Re
 
 ## ✨ Features
 
-✅ **Realizar inscrição:** permite a inscrição rápida no evento.<br/>
+✅ **Realização de inscrição:** permite a inscrição rápida no evento.<br/>
 ✅ **Cópia do link de indicação:** gera um link compartilhável para convidar participantes.<br/>
 ✅ **Visualização de acessos:** exibe a quantidade de vezes que o link foi acessado.<br/>
 ✅ **Acompanhamento de inscrições:** exibe quantas pessoas se inscreveram pelo link.<br/>
