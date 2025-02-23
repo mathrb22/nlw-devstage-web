@@ -89,6 +89,11 @@ A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em Re
       <img width="60" src=".github/react-hook-form.svg" alt="React Hook Form" title="React Hook Form"/>
       </a>
     </td>
+    <td align="center" width="140">
+      <a href="https://orval.dev/" target="_blank" rel="noopener noreferrer">
+      <img width="60" src=".github/orval.svg" alt="Orval" title="Orval"/>
+      </a>
+    </td>
     </tr>
     <tr>
     <td align="center"><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><span>React</span></a></td>
@@ -97,6 +102,7 @@ A aplicação foi desenvolvida com o intuito de aprimorar os conhecimentos em Re
     <td align="center"><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer"><span>Tailwind CSS</span></a></td>
     <td align="center"><a href="https://zod.dev/" target="_blank" rel="noopener noreferrer"><span>Zod</span></a></td>
     <td align="center"><a href="https://www.react-hook-form.com/" target="_blank" rel="noopener noreferrer"><span>React Hook Form</span></a></td>
+    <td align="center"><a href="https://orval.dev/" target="_blank" rel="noopener noreferrer"><span>Orval</span></a></td>
     </tr>
 </table>
 
