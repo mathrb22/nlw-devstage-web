@@ -7,7 +7,7 @@ export function InputRoot({ error = false, ...props }: InputRootProps) {
     <div
       {...props}
       data-error={error}
-      className="group px-4 h-12 flex items-center gap-2 border bg-gray-800 border-gray-600 rounded-xl not-read-only:focus-within:outline-none not-read-only:focus-within:border-1 focus-within:border-gray-100 data-[error=true]:border-danger text-gray-100"
+      className="group px-4 h-12 flex items-center gap-2 border bg-gray-800 border-gray-600 rounded-xl [&:not(:has(input:read-only))]:focus-within:outline-none [&:not(:has(input:read-only))]:focus-within:border-1 [&:not(:has(input:read-only))]:focus-within:border-gray-100 data-[error=true]:border-danger text-gray-100"
     />
   );
 }
