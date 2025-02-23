@@ -2,9 +2,13 @@
 
 import { Button } from '@/components/button';
 import { InputField, InputIcon, InputRoot } from '@/components/input';
+import { subscribeToEvent } from '@/http/api';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { ArrowRight, Mail, User } from 'lucide-react';
+import { ArrowRight, LoaderCircle, Mail, User } from 'lucide-react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import toast from 'react-hot-toast';
 import { z } from 'zod';
 
 const subscriptionSchema = z.object({
@@ -15,16 +19,43 @@ const subscriptionSchema = z.object({
 type SubscriptionSchema = z.infer<typeof subscriptionSchema>;
 
 export function SubscriptionForm() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<SubscriptionSchema>({
     resolver: zodResolver(subscriptionSchema),
   });
 
-  function onSubscribe(data: SubscriptionSchema) {
-    console.log(data);
+  async function onSubscribe({ name, email }: SubscriptionSchema) {
+    const referrer = searchParams.get('referrer');
+
+    setIsSubmitting(true);
+
+    const { subscriberId } = await subscribeToEvent({
+      name,
+      email,
+      referrer,
+    });
+
+    setTimeout(() => {
+      setIsSubmitting(false);
+      toast.success('Inscrição realizada com sucesso!', {
+        position: 'top-center',
+        duration: 3000,
+        style: {
+          background: 'var(--color-gray-800)',
+          color: 'var(--color-gray-200)',
+        },
+      });
+      reset();
+      router.push(`/invite/${subscriberId}`);
+    }, 1000);
   }
 
   return (
@@ -76,9 +107,18 @@ export function SubscriptionForm() {
         </div>
       </div>
 
-      <Button type="submit">
-        Confirmar
-        <ArrowRight className="size-6" />
+      <Button type="submit" disabled={isSubmitting}>
+        {isSubmitting ? (
+          <span className="flex items-center gap-4 w-full justify-center">
+            <LoaderCircle className="animate-spin size-6" />
+            Confirmando inscrição...
+          </span>
+        ) : (
+          <>
+            Confirmar
+            <ArrowRight className="size-6" />
+          </>
+        )}
       </Button>
     </form>
   );
